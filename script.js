@@ -9,20 +9,20 @@ function carregar() {
     var hora = data.getHours()
     var minuto = data.getMinutes()
 
-    msg.innerHTML = `Agora são Exatamente ${hora}:${minuto} do dia`
+    msg.innerHTML = `Agora são Exatamente <strong>${hora}:${minuto}</strong> do dia.`
     
     
     if (hora >= 0 && hora < 12 ){
         //bom dia
-        sad.innerHTML=('bom dia')
+        sad.innerHTML=('Bom Dia!')
         img.src=('imagens/manha.jpg')
         document.body.style.background = 'gold'
     }else if(hora < 18){ //boa tarde
-        sad.innerHTML=('boa tarde')
+        sad.innerHTML=('Boa Tarde!')
         img.src=('imagens/tarde (2).jpg')
         document.body.style.background = 'orange'
     }else{ //boa noite
-    sad.innerHTML=('Boa noite')
+    sad.innerHTML=('Boa noite!')
     img.src=('imagens/noite.jpg')
     document.body.style.background = 'black'
     }

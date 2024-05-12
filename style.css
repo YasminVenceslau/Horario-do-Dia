@@ -12,7 +12,8 @@ section{
     background-color: aliceblue;
     border-radius: 5px;
     padding: 15px;
-    width: 700px;
+    max-width: 500px;
+    min-width: 300px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.265);
     align-items: center;
@@ -31,7 +32,7 @@ div{
     
 }
 img{
-    max-width: 700px;
+    max-width: 500px;
     max-height: 400px;
     border-radius: 60%;
     margin: auto;
